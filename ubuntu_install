@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo vim
+apt-get -y install vim
+
+
+
+echo install chorme 
+mkdir tmp
+cd tmp
+
+
+cd -
