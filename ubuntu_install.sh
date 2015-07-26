@@ -1,3 +1,5 @@
+#!/bin/sh
+
 install_it()
 {
     echo "Your choice is $1"   # 这个 $1 必须要参考底下命令的下达
