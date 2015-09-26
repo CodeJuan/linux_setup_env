@@ -65,3 +65,7 @@ git clone https://github.com/CodeJuan/config.git
 cp config/.vimrc ~/
 cat config/.gitconfig >> ~/.gitconfig
 cd -
+
+git clone https://github.com/CodeJuan/linux_setup_env.git
+cd linux_setup_env/ubuntu
+unzip 123.zip
