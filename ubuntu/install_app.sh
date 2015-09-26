@@ -66,6 +66,8 @@ cp config/.vimrc ~/
 cat config/.gitconfig >> ~/.gitconfig
 cd -
 
+ln -s /lib/x86_64-linux-gnu/libudev.so.1 /lib/x86_64-linux-gnu/libudev.so.0
+
 git clone https://github.com/CodeJuan/linux_setup_env.git
 cd linux_setup_env/ubuntu
 unzip 123.zip
