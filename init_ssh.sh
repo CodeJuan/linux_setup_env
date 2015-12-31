@@ -1,6 +1,6 @@
 #/bin/bash
 
-mkdir ~/.ssh
-chmod 700 ~/.ssh
-touch ~/.ssh/authorized_keys
-chmod 600 ~/.ssh/authorized_keys
+bash ssh_auth.sh
+
+bash set_deny.sh
+
